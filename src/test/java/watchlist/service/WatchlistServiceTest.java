@@ -26,12 +26,11 @@ public class WatchlistServiceTest {
     private static final String[] CONTENT_IDS = {"zRE49", "wYqiZ", "15nW5", "srT5k", "FBSxr"};
     private static final String[] TO_DELETE_CONTENT_IDS = {"zRE49", "wYqiZ"};
 
+    @Mock
+    WatchlistRepository watchlistRepository;
 
     @InjectMocks
     WatchlistService watchlistService = new WatchlistService();
-
-    @Mock
-    WatchlistRepository watchlistRepository;
 
     private Watchlist watchlist;
 

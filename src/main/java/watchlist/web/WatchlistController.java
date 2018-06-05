@@ -12,7 +12,7 @@ import watchlist.service.WatchlistService;
 public class WatchlistController {
 
     @Autowired
-    private WatchlistService watchlistService;
+    private  WatchlistService watchlistService;
 
     @RequestMapping("/add/{userId}")
     public ResponseEntity addWatchlist(@PathVariable String userId, @RequestBody Watchlist watchlist) {

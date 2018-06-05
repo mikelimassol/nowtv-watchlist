@@ -13,6 +13,7 @@ public class WatchlistService {
     @Autowired
     private WatchlistRepository watchlistRepository;
 
+
     public void add(String userId, Watchlist contentIDs) {
 
         watchlistRepository.add(userId, contentIDs);

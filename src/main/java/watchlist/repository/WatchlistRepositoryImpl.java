@@ -12,14 +12,8 @@ import java.util.stream.Collectors;
 @Repository
 public class WatchlistRepositoryImpl implements WatchlistRepository {
 
-
-    private final HazelcastInstance hazelcastInstance;
-
     @Autowired
-    public WatchlistRepositoryImpl(HazelcastInstance hazelcastInstance) {
-        this.hazelcastInstance = hazelcastInstance;
-    }
-
+    private  HazelcastInstance hazelcastInstance;
 
     @Override
     public void add(String userId, Watchlist watchlist) {
