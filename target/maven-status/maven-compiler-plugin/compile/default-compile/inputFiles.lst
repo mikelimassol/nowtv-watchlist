@@ -1,0 +1,7 @@
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/Application.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/model/Watchlist.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/WatchlistController.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/repository/WatchlistRepositoryImpl.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/config/HazelcastConfiguration.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/repository/WatchlistRepository.java
+/Users/mpa67/Workspace/nowtv-watchlist/src/main/java/watchlist/service/WatchlistService.java
